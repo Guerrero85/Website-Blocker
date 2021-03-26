@@ -10,7 +10,7 @@ hosts_path_U = "/etc/hosts" # Linux or MacOs
 hosts_dir = "/home/user/Documentos/hosts" # Example
 
 redirect = "127.0.0.1"
-website_list = ["www.facebook.com", "facebook.com", "mail.google.com", "www.youtube.com"]
+#website_list = ["www.facebook.com", "facebook.com", "mail.google.com", "www.youtube.com"]
 
 
 str = "***** Bienvenido al Bloqueador de Sitios Web *****"
@@ -18,6 +18,11 @@ print(str.center(40, " "))
 from_hour = int(input("Introduzca hora de trabajo: "))
 to_hour = int(input("Introduzca hora de finalizacion de trabajo: "))
 
+
+Numero_website = int(input("Numero de Pagina que desea Bloquear o Desbloquear: "))
+website_list = []
+for i in range(Numero_website):
+    website_list.append(input("Ingresa su Sitio que deseas Bloquear o Desbloquear: "))
 
 
 while True:
