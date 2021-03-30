@@ -55,7 +55,8 @@ _Para el despliegue y uso correcto debe cambiar una linea de codigo que apunta a
 
 _Herramientas utilizadas para creación del codigo_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Visual Studio Code](https://code.visualstudio.com/) - IDE o Editor de Codigo.
+* [Extension Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - Extension de Python para IDE.      
+* [GitHub Desktop](https://desktop.github.com/) - Software de flujo de trabajo de desarrollo.     
+
 
