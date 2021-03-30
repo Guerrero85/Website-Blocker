@@ -1,21 +1,61 @@
-# Website-Blocker
-Site blocker in python by terminal
+# Bloqueador de Sitios Web
 
-The time to determine when the work hour begins must be placed in 24/h format, however simply by placing the hour digits without the need to enter the full format
+_Script por lineas de comando que permite bloquear los sitios web_
+
+## Comenzando 🚀
+
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+
+Mira **Deployment** para conocer como desplegar el proyecto.
 
 
+### Pre-requisitos 📋
 
-🔨 ##Bloqueador de sitios en Python por terminal##
+_Sistema basado en Unix sea MacOs, Ubuntu (GNU/Linux), o en su defecto Windows_
 
-La hora para determinar cuándo comienza la hora de trabajo debe colocarse en formato 24 / h, sin embargo, simplemente colocando los dígitos de la hora sin necesidad de ingresar el formato completo.
+_Tener instalado un editor de Codigo o IDE_
 
+```
+Visual Studio Code.
+Atom IDE
+PyCharm
+```
 
+### Instalación 🔧
+
+_Para probar o ejecutar el codigo debe realizar los siguiente pasos._
+
+```
+$ sudo apt-get update
+$ sudo apt-get install python3.9.2
+```
+
+```
+$ python3 --version
+$ python3 index.py
+```
+
+_Pequeña demostración_
 
 ![imagen](https://user-images.githubusercontent.com/34452566/112563511-e2468e00-8daf-11eb-84d0-5b7e37541038.png)
 
+## Ejecutando las pruebas ⚙️
 
-The general function is that it changes the address of the pages by your local IP in the host file
-
+_En el repositorio se encuentra un archivo llamado Host las pruebas se realizaron en dicho archivo para la verificacion de su correcto funcionamiento_
 
 
 ![imagen](https://user-images.githubusercontent.com/34452566/112564620-fb503e80-8db1-11eb-9e01-32067ef3ae9f.png)
+
+
+## Despliegue 📦
+
+_Para el despliegue y uso correcto debe cambiar una linea de codigo que apunta al archivo host_
+
+## Construido con 🛠️
+
+_Herramientas utilizadas para creación del codigo_
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
+* [Maven](https://maven.apache.org/) - Manejador de dependencias
+* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+
